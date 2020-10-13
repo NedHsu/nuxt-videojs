@@ -1,0 +1,25 @@
+{
+  "name": "codesandbox-nuxt",
+  "version": "1.0.0",
+  "description": "Nuxt starter for CodeSandBox",
+  "author": "Nuxt.js Team",
+  "private": true,
+  "scripts": {
+    "dev": "MINIMAL=1 CSB=1 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@nuxt/http": "^0.1.0",
+    "@silvermine/videojs-airplay": "1.0.0",
+    "@silvermine/videojs-chromecast": "1.1.2",
+    "nuxt": "^2.5.1",
+    "reqlim": "^0.0.0",
+    "sass-loader": "7.1.0",
+    "underscore": "1.9.1",
+    "vue": "2.6.10",
+    "vue-video-player": "5.0.2"
+  }
+}
